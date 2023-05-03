@@ -119,7 +119,6 @@
         // Delete Employee
         $('body').on('click', '.delete', function(e){
             const id = $(this).data('id');
-            console.log(id);
             $('.delete-employee').click(function(e){
                 e.preventDefault();
                 $.ajax({
